@@ -1,0 +1,39 @@
+.document_bg {
+  background: var(--bg-primary);
+}
+.text-primay_globle {
+  color: var(--text-primary);
+}
+.th_color {
+  color: var(--text-primary);
+}
+.withdraw_history_boxs {
+  border: 1px solid #a5b4fc;
+  border-radius: 20px;
+  background: var(--bg-box) !important;
+}
+thead tr td {
+  color: var(--text-primary);
+}
+tr.row_style {
+  background: var(--bg-input);
+  border: 1px solid #a5b4fc;
+  color: #a5b4fc;
+  border-radius: 50px !important;
+  margin-bottom: 20px !important;
+}
+
+tr.row_style:hover {
+  background: var(--bg-input);
+  color: #a5b4fc;
+  border: 1px solid #a5b4fc;
+  border-radius: 20px !important;
+}
+/* .border_radius_left {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.border_radius_right {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+} */

@@ -1,0 +1,76 @@
+.document_bg {
+  background: var(--bg-primary);
+}
+.USDT_Purchase {
+  border: 1px solid #a5b4fc;
+  border-radius: 20px;
+  background: var(--bg-box) !important;
+}
+
+.display-4 {
+  font-weight: bold !important;
+}
+.input_style {
+  background: var(--copy-bg);
+  border: 1px solid #a5b4fc;
+  color: #a5b4fc;
+  border-radius: 50px;
+}
+.input_style:focus {
+  background: var(--copy-bg);
+  color: #a5b4fc;
+  border: 1px solid #a5b4fc;
+  border-radius: 50px;
+}
+.copy {
+  color: #a5b4fc;
+  border-radius: 50px;
+  z-index: 1111;
+}
+.form-control {
+  background: var(--bg-input) !important;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  color: #a5b4fc;
+}
+.form-control:focus,
+.form-control:active {
+  background: var(--bg-input) !important;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  color: #a5b4fc;
+}
+.form-control::placeholder {
+  color: #a5b4fc;
+  font-size: 1rem;
+}
+
+.Buy_eta_button {
+  border: none;
+  border-radius: 50px;
+  border: 2px solid #211eea !important;
+  background-color: #211eea;
+  color: #ffffff;
+}
+
+.Buy_eta_button:hover,
+.Buy_eta_button:active {
+  border-radius: 50px;
+
+  border: 2px solid #211eea !important;
+  color: var(--text-primary);
+}
+
+@media only screen and (max-width: 768px) {
+  .hidden_on_mobile {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .hidden_on_large_screen {
+    display: none !important;
+  }
+}

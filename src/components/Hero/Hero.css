@@ -1,0 +1,32 @@
+.connect_wallet_button_hero {
+  border: none;
+  border-radius: 50px;
+  border: 2px solid #211eea;
+  background-color: #211eea;
+  color: #ffffff;
+}
+
+.connect_wallet_button_hero:hover,
+.connect_wallet_button_hero:active {
+  border: none;
+  border-radius: 50px;
+  border: 2px solid #211eea;
+  color: var(--text-primary);
+}
+.text-primay_globle {
+  color: var(--text-primary);
+}
+
+@media (max-width: 1022px) {
+  .discover_img {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+@media (min-width: 1023px) {
+  .discover_img {
+    height: 4rem;
+    width: 4rem;
+  }
+}

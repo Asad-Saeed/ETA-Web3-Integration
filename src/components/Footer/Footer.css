@@ -1,0 +1,16 @@
+.document_bg {
+  background: var(--bg-primary);
+}
+.text-primay_globle {
+  color: var(--text-primary);
+}
+.footer_bg {
+  background-color: #1a1159;
+}
+.footer_text_color {
+  color: var(--text-primary);
+}
+.footer_nav_list li a {
+  text-decoration: none !important;
+  color: var(--text-primary);
+}

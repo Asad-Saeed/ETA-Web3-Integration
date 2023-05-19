@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*  */
+:root {
+  --primary-blue: rgb(0, 0, 255);
+  --secondary-blue: rgb(96, 96, 182);
+  --text-primary-light: #363636;
+  --text-primary-dark: #e4e4e4;
+  --text-secondary-light: rgb(70, 70, 70);
+  --text-secondary-dark: rgb(160, 160, 160);
+
+  --bg-secondary-light: rgb(212, 212, 212);
+  --bg-secondary-dark: rgb(34, 34, 34);
+  --bg-navbar-light: rgb(255, 255, 255);
+  --bg-navbar-dark: rgb(29, 29, 58);
+  /*  */
+  --bg-primary-light: linear-gradient(
+    to right,
+    rgba(83, 139, 222, 0.1),
+    rgba(83, 204, 221, 0.1),
+    rgba(83, 179, 221, 0.1),
+    rgba(144, 83, 221, 0.1),
+    rgba(203, 83, 222, 0.1)
+  );
+  --bg-primary-dark: #190039;
+  --bg-box-light: #f5f5f5;
+  --bg-box-dark: #1a1159;
+  --bg-input-dark: #190039;
+  --bg-input-light: white;
+  --copy-bg-light: white;
+  --copy-bg-dark: #190039;
+  --table-row-hover-light: #f5f5f5;
+  --table-row-hover-dark: #1a1159;
+  --nav-bg-light: #ffffff;
+  --nav-bg-dark: #190039;
+}
+
+.light-theme {
+  --text-primary: var(--text-primary-light);
+  --text-secondary: var(--text-secondary-light);
+
+  --bg-secondary: var(--bg-secondary-light);
+  --bg-navbar: var(--bg-navbar-light);
+  /*  */
+  --bg-primary: var(--bg-primary-light);
+  --bg-box: var(--bg-box-light);
+  --bg-input: var(--bg-input-light);
+  --copy-bg: var(--copy-bg-light);
+  --table-row-hover: var(--table-row-hover-light);
+  --nav-bg: var(--nav-bg-light);
+}
+
+.dark-theme {
+  --text-primary: var(--text-primary-dark);
+  --text-secondary: var(--text-secondary-dark);
+
+  --bg-secondary: var(--bg-secondary-dark);
+  --bg-navbar: var(--bg-navbar-dark);
+  /*  */
+  --bg-primary: var(--bg-primary-dark);
+  --bg-box: var(--bg-box-dark);
+  --bg-input: var(--bg-input-dark);
+  --copy-bg: var(--copy-bg-dark);
+  --table-row-hover: var(--table-row-hover-dark);
+  --nav-bg: var(--nav-bg-dark);
+}

@@ -1,0 +1,37 @@
+.withdraw_history_boxs {
+  border: 1px solid #a5b4fc;
+  border-radius: 20px;
+  background: var(--bg-box) !important;
+}
+.text-primay_globle {
+  color: var(--text-primary);
+}
+.th_color {
+  color: var(--text-primary);
+}
+tr.row_style {
+  background: var(--bg-input) !important;
+  border: 1px solid #a5b4fc !important;
+  color: #a5b4fc !important;
+  border-radius: 50px !important;
+}
+
+tr.row_style:hover {
+  background: var(--table-row-hover) !important;
+  color: #a5b4fc !important;
+  border: 1px solid #a5b4fc !important;
+  border-radius: 20px !important;
+}
+/* table{
+  border-collapse: separate;
+  border-spacing: 0 0.6em;
+} */
+
+/* .border_radius_left {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.border_radius_right {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+} */
